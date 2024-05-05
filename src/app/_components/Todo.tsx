@@ -1,6 +1,6 @@
 "use client";
 import { ChangeEvent, FC, useState } from "react";
-import { todoType } from "@/types/todoType";
+import { todoType } from "../_types";
 
 interface Props {
   todo: todoType;
